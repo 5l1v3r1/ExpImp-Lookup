@@ -9,8 +9,9 @@ the.tr3w at gmail dot com
 '''
 
 import optparse
+import sys
 import os
-import PEace
+from PEace import PEace
 
 def usage():
     print "Usage: %s [0|1|2] \"string_to_search\" [\"directory\" | \"filename\"]"
