@@ -1,7 +1,8 @@
-expimp_lookup.py
-
 Quick tool that finds all Portable Executable files in given directory tree
 and looks for export and import names that contain a specified string.
+
+Uses PEace [github.com/tr3w/PEace]
+
 
  How to Use
 ============
