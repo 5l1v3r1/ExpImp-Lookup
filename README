@@ -1,0 +1,29 @@
+expimp_lookup.py
+
+Quick tool that finds all Portable Executable files in given directory tree
+and looks for export and import names that contain a specified string.
+
+ How to Use
+============
+
+expimp_lookup.py [0|1|2] "string_to_search" "directory_path"
+
+    Use 0 to only search for exports
+    Use 1 to only search for imports
+    Use 2 to search for both exports and imports
+
+    All functions that contain "string_to_search" will be displayed.
+    "directory_path" can be either a directory or a single file
+
+
+ Example:
+----------- 
+Find all executables and libraries that use the function VirtualProtect:
+
+python expimp_lookup.py 1 VirtualProtect "C:\windows\system32\"
+
+
+
+
+
+
